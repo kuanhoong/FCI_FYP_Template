@@ -1,0 +1,54 @@
+\documentclass{thesis}
+
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\author{Tan Ah Kow}
+\title{The MMU FCI FYP \protect\LaTeX{} Template Class}
+\submissionyear{2013}
+\submissionmonth{December}
+\degree{BACHELOR OF INFORMATION TECHNOLOGY}
+\major{B.I.T (HONS) SOFTWARE ENGINEERING}
+\session{Session 2013/2014}
+\loadglsentries{myacronyms}
+
+\begin{document}
+\frontmatter
+\makecoverandtitlepage
+\copyrightpage
+\declarationpage
+
+\acknowledgements{Thanks guys. I owe you many.}
+\dedication{To my parents, my husband, and my daughter.}
+
+\abstractfromfile{sample-abstract}
+
+{\clearpage\SingleSpacing
+\tableofcontents\clearpage
+\listoftables\clearpage
+\listoffigures\clearpage}
+
+\prefacefromfile{sample-preface}
+
+\mainmatter
+
+\include{sample-chap-intro}
+\include{sample-chap-dummy}
+\include{sample-chap-conclusion}
+
+\appendix
+\include{sample-appen-manual}
+\include{sample-appen-try}
+
+\backmatter
+\bibliography{references}
+\printglossaries
+\theendnotes
+{\SingleSpacing\printindex}
+\bibliographyown{references}
+\end{document}
