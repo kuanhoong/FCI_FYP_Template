@@ -1,0 +1,26 @@
+\@doanenote {1}
+macro:->This
+is
+a
+footnote,
+or
+rather
+an
+endnote.
+Note
+that
+footnotes/endnotes
+are
+not
+encouraged
+in
+scientific
+and
+engineering
+disciplines.
+\@endanenote 
+\@doanenote {2}
+macro:->don't
+you
+agree?
+\@endanenote 
