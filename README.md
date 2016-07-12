@@ -1,6 +1,7 @@
 # FCI FYP Template
 
 This is an *unofficial* template for FCI FYP Report. 
+*This template is modified from IPS Postgraduate Thesis template. (Credit to: Lim Lian Tze)*
 
 ## For Windows
 
