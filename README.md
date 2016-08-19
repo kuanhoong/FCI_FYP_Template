@@ -13,13 +13,13 @@ This is an *unofficial* template for FCI FYP Report.
 
 ## For Debian/Ubuntu
 
-1. Install texlive-full with apt-get (approx 3GB) or [TexMaker] (http://www.xm1math.net/texmaker/download.html#linux):
+1. Install texlive-full with apt-get (approx 3GB) and [TexMaker] (http://www.xm1math.net/texmaker/download.html#linux):
 
   ```
   $ sudo apt-get install texlive-full
   ```
   
-  or
+  and
   
   ```
   $ sudo apt-get install texmaker
