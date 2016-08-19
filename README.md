@@ -6,7 +6,7 @@ This is an *unofficial* template for FCI FYP Report.
 
 ## For Windows
 
-1. Install [MikTex](http://miktex.org/download) and Install TexMaker 
+1. Install [MikTex](http://miktex.org/download) and Install [TexMaker](http://www.xm1math.net/texmaker/download.html) 
 2. Open and edit thesis.tex file. Edit the `\author`, `\title`, `\submissionyear`, `\submissionmonth`, `\degree`, `\major`, `\session` accordingly.
 3. Edit the rest of the files accordingly.
 4. To include a new chapter, simply create a new `.tex` file and make sure you include the link to the file to `thesis.tex` by including the command `\include{newchapter}`
