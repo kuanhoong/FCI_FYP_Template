@@ -17,11 +17,6 @@ This is an *unofficial* template for FCI FYP Report.
 
   ```
   $ sudo apt-get install texlive-full
-  ```
-  
-  and
-  
-  ```
   $ sudo apt-get install texmaker
   ```
 
