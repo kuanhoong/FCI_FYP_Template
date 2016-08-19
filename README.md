@@ -21,7 +21,7 @@ This is an *unofficial* template for FCI FYP Report.
 
 ## For OSX/macOS
 
-1. Install [MacTex](https://tug.org/mactex/) (approx 3GB).
+1. Install [MacTex](https://tug.org/mactex/) (approx 3GB) or [TexMaker](http://www.xm1math.net/texmaker/download.html#macosx) (31.2MB).
 
 ## Compiling with Makefile
 
