@@ -18,6 +18,12 @@ This is an *unofficial* template for FCI FYP Report.
   ```
   $ sudo apt-get install texlive-full
   ```
+  
+  or
+  
+  ```
+  $ sudo apt-get install texmaker
+  ```
 
 ## For OSX/macOS
 
