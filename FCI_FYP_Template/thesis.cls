@@ -97,9 +97,10 @@
 %\OnehalfSpacing
 \DisemulatePackage{setspace}
 \usepackage{setspace}
-\setstretch{1.5}
-\abnormalparskip{1.5\onelineskip}
-\setlength\parindent{12.7mm}
+\setstretch{2.0}
+\abnormalparskip{2.0\onelineskip}
+% \setlength\parindent{12.7mm}
+\setlength\parindent{0mm}
 
 %%%%%%%%%%%%
 % Footnotes
@@ -136,7 +137,7 @@
 \begin{titlingpage}
 \centering\SingleSpacing%
 \renewcommand\ttdefault{lmtt}%
-\fontfamily{phv}\fontseries{mc}%\LARGE%
+% \fontfamily{phv}\fontseries{mc}%\LARGE%
 %\fontfamily{qhv}\fontseries{cr}%
 \fontsize{20pt}{20pt}
 \selectfont%
@@ -195,13 +196,12 @@ FOR}\\%
 \ifpdf\pdfbookmark{Copyright Page}{copyright}\fi%
 \cftaddtitleline{toc}{chapter}{COPYRIGHT PAGE}{\thepage}%
 \begin{vplace}[1]
-\centering
-\fontsize{14pt}{16pt}\selectfont The copyright of this thesis belongs to the author under the terms of the Copyright Act 1987 as qualified by Regulation 4(1) of the Multimedia University Intellectual Property Regulations. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis.\par\vskip\onelineskip%
+% \centering
+\fontsize{14pt}{16pt}\selectfont ~~~~~~~~~~ Copyright of this report belongs to Universiti Telekom Sdn. Bhd. as qualified by Regulation 7.2 (c) of the Multimedia University Intellectual Property and Commercialisation Policy. No part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Universiti Telekom Sdn. Bhd. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this report.\par\vskip\onelineskip%
 {\centering%
 %\begin{tabular}{@{}r@{ }l@{}}
 \begin{tabular}{c}
-\textcopyright ~\theauthor, \@mtsubmissionyear\\
-All rights reserved
+\fontsize{12pt}{12pt}\selectfont\textcopyright ~ \@mtsubmissionyear ~ University Telekom Sdn. Bhd. ALL RIGHTS RESERVED.
 \end{tabular}%
 \par}
 \end{vplace}\clearpage%
@@ -266,8 +266,8 @@ Date: \todayiso
 \setlength\beforechapskip{0pt}
 \setlength\midchapskip{3\onelineskip}
 \setlength\afterchapskip{2\onelineskip minus \onelineskip}
-\renewcommand*\chapnamefont{\normalsize\bfseries\fontsize{14pt}{12pt}\selectfont}
-\renewcommand*\chapnumfont{\normalsize\bfseries\centering\fontsize{14pt}{12pt}\selectfont}
+\renewcommand*\chapnamefont{\normalsize\bfseries\fontsize{16pt}{12pt}\selectfont}
+\renewcommand*\chapnumfont{\normalsize\bfseries\centering\fontsize{16pt}{12pt}\selectfont}
 \renewcommand*\chaptitlefont{\normalsize\bfseries\centering}
 \renewcommand{\printchaptername}{{\chapnamefont\MakeUppercase{\chaptername}}}
 \renewcommand*{\afterchapternum}{\vskip\midchapskip}
@@ -284,13 +284,13 @@ Date: \todayiso
 % Sectional headings
 %%%%%%%%%%%%
 \setsecnumdepth{subsubsection}
-\setsecheadstyle{\normalsize\bfseries}
+\setsecheadstyle{\normalsize\bfseries\itshape\fontsize{14pt}{12pt}\selectfont}
 %\setbeforesecskip{2.5ex plus 1ex minus .2ex}
 \setbeforesecskip{\onelineskip}
 %\setaftersecskip{0.1ex plus .2ex}
 %\setaftersecskip{1em plus .2ex minus .2ex}
 \setaftersecskip{\onelineskip}
-\setsubsecheadstyle{\normalsize\bfseries}
+\setsubsecheadstyle{\normalsize\bfseries\itshape}
 %\setbeforesubsecskip{2.5ex plus .1ex minus .2ex}
 \setbeforesubsecskip{\onelineskip}
 %\setaftersubsecskip{0.1ex plus .2ex}
@@ -360,6 +360,7 @@ Date: \todayiso
 %\setlength\bibleftmargin{12.7mm}
 \setlength\bibleftmargin{2em}
 \setlength\bibindent{-\bibleftmargin}
+\iffalse
 % Add a counter label to each bibitem per MMU's requirement
 \def\@lbibitem[#1]#2{%
     \def\BBA{\BBAA}%    ``\&''
@@ -376,6 +377,7 @@ Date: \todayiso
     \fi
     \ignorespaces
 }
+\fi
 % step counter at each bibitem
 \patchcommand{\bibitem}{\addtocounter{lbibcount}{1}}{}
 % reset label width to 0 and reset bibitem counter.
