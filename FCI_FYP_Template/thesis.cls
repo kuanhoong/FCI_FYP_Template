@@ -56,15 +56,16 @@
 %%%%%%%%%%%%
 % Page layout
 %
-% Margins: T - 20mm; B - 40mm; L - 40mm; R - 25mm
+% Following 2016/17 FCI FYP guideline p. 15
+% Margins: T - 40mm; B - 25mm; L - 40mm; R - 25mm
 % No running headers.
 % Running footers are 15mm from bottom edge of paper
 % i.e. (40 - 15)mm = 25mm from bottom edge of typeblock.
 %%%%%%%%%%%%
 \settrimmedsize{297mm}{210mm}{*}
 \setlrmarginsandblock{40mm}{25mm}{*}
-\setulmarginsandblock{20mm}{40mm}{*}
-\setheadfoot{\baselineskip}{25mm}
+\setulmarginsandblock{40mm}{40mm}{*}
+\setheadfoot{\baselineskip}{15mm}
 \addtolength\footskip{-6pt}
 \pagestyle{plain}
 \makeevenfoot{plain}{}{\fontsize{10pt}{12pt}\selectfont\thepage}{}
