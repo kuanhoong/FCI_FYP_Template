@@ -1,8 +1,14 @@
 # FCI FYP Template
 
-This is an *unofficial* template for FCI FYP Report.
+This is an *unofficial* template for FCI FYP Report. 
+
+This current version is based on the [FCI FYP Guideline from 2016/17 session](https://github.com/kuanhoong/FCI_FYP_Template/files/804514/85091_Final.Year.Project.Guidelines_V4_20160706.pdf). Please check the latest guideline for potential changes in copyright, declaration, formattings, and etc.
 
 *This template is modified from IPS Postgraduate Thesis template. (Credit to: Lim Lian Tze)*
+
+## Recommended: Overleaf
+
+Instead of installing a local version of LaTeX (can be as big as 3GB), consider to just use [Overleaf](https://www.overleaf.com) - like Google Docs for LaTeX. It's free as long as you have <= 60 files (just delete sample images you should be fine).
 
 ## For Windows
 
@@ -20,7 +26,7 @@ This is an *unofficial* template for FCI FYP Report.
   $ sudo apt-get install texmaker
   ```
 
-## For OSX/macOS
+## For macOS
 
 1. Install [MacTex](https://tug.org/mactex/) (approx 3GB) and [TexMaker](http://www.xm1math.net/texmaker/download.html#macosx) (31.2MB).
 
